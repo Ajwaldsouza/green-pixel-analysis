@@ -29,7 +29,7 @@ class ImageSummary:
 
         # create csv and write header row
         c = csv.writer(open('image-summary.csv', 'w'), lineterminator='\n')
-        c.writerow(['Image Name', 'Total Green Pixels', 'Percent of Total', 'Projected Leaf Area']) 
+        c.writerow(['Image Name', 'Total Green Pixels', 'Percent of Total', 'Projected leaf area']) 
 
         # write a row for each image analyzed
         for i in self.sumData:
