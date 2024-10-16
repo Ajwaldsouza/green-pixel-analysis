@@ -1,0 +1,6 @@
+In the program gpix.py, all images are resized to a standard 2000x1500 pixels (3,000,000 pixels) to remove zoom/crop effects on image size (see lines 70-71). 
+
+Next steps:
+- After the imaging system is set up, measure the total ground area for the images. 
+- The projected leaf area would be the 'percent of green pixels' multiplied into the ground area for the image. 
+- Change the placeholder ground area "777" in the gpix.py program to the measured ground area. 
