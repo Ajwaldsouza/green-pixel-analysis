@@ -52,7 +52,7 @@ On a second pass, the program will ignore the `*-ANALYZED.jpg` file and overwrit
 
 
 # Modification for a fixed imaging system
-Given a fixed imaging module with an unchanging image pixel size is used, the projected leaf area can be calculated by the program as a product of the percent green pixels with the fixed area of the image. This capability is added in the gpix.py program. 
+Given a fixed imaging module with an unchanging ground area, the projected leaf area can be calculated by the program as a product of the percent green pixels with the fixed area of the ground in the image. This capability is added in the gpix.py program. 
 
 The output of the modified program is a csv file:
 
